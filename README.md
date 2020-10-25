@@ -1,44 +1,48 @@
 # FDP-simple-git
-A Tutorial Created for teaching Git to Computer science Teachers
-Verison control system(Git)
+A Tutorial Created for teaching Git to Computer science Teachers 
+
+Verison control system (Git)is
 
     • local and remote reposCreated in 2005 by Linus Torvald
     • Distriuted
     • Cordinates work between developers
-    • Keeps track of who  made what change when
+    • Keeps track of who  made what change and when
     • Revert back any time	
     • Helps to test your changes without worrying about losing the original
     • Not platform specific
       
-Github and big bucket are remote repository
+Github and big bucket are remote repository Git is the version control System
 To work on local repo and push into remote when connected to internet
 
 
 Features
+
     • Keeps track of your code history
     • Take snapshot of your files
     • You decide when to take snapshots by commits
-    •  You can visit any snapshot at any time (safe coding)
+    • You can visit any snapshot at any time (safe coding)
     • Stage files before committing
+    
 Once you make a commit other developers can pull that information to their repository
 
+## To install Git
 
-sudo apt-get install git
+`sudo apt-get install git` (Linux)
+ 
+http://git-scm.com/download/win  (Download for Windows)
 
-http://git-scm.com/download/win
+Once you install type the command : 
 
-Once you install 
+`git-- version`
 
-type the command : 
+Create a folder Git Tutorial,create two python files
 
-git-- version
-
-Create a folder Gittutorial
-
-touch print.py
-touch swap.py
+`touch print.py`
+`touch swap.py`
 
 Add contents to print .py
+`print("Hello")`
+
  Go to the folder create git- init
 
 .git will be created which is a hidden file
